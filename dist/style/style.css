@@ -1,0 +1,49 @@
+@import url("fonts.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+}
+
+.nav__list{
+  display: flex;
+  gap: 20px;
+}
+
+.nav__list, .nav__item .nav__link{
+  color: black;
+}
+
+.nav__list, .nav__item, .nav__link-red{
+  color: #D92950;
+}
+
+.hero-section{
+  background: #FAF3E9;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+
+}
+
+.editor__section img{
+  margin-top: 10%;
+  margin-left: 20px;
+}
+
+.content__section{
+  margin-top: 12%;
+}
+
+
+
