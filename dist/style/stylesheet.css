@@ -241,10 +241,86 @@ header nav ul li a:hover{
   padding: 10px 15px;
   border-radius: 8px;
 }
-
-
 /* end main */
 
+/* main nos_cours */
+.nos_cours-main-first-section{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 100px;
+  background-color: var(--mr);
+  width: 100%;
+}
+
+.nos_cours-main-first-section h1{
+  font-size: xx-large;
+}
+
+.nos_cours-main-first-section-divImg{
+  width: 100%;
+  height: 100%;
+}
+
+.nos_cours-main-first-section-divImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nos_cours-main-first-section-head{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.nos_cours-main-second-section{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px;
+  align-items: center;
+}
+
+.nos_cours-main-second-section-title{
+  font-size: x-large;
+}
+
+.nos_cours-main-second-section-p p{
+  text-align: center;
+}
+
+.nos_cours-main-second-section-articles{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+}
+
+.nos_cours-main-second-section-articles article{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  flex: 1 0 30%;
+  background-color: var(--mr);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.nos_cours-main-second-section-direction{
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.nos_cours-main-second-section-direction p{
+  font-weight: bold;
+  color: var(--rg);
+}
+
+/* main nos_cours end */
 footer{
   display: flex;
   flex-direction: column;
