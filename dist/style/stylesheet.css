@@ -33,6 +33,7 @@ a,
 button {
   text-decoration: none;
   font-weight: 600;
+  color: var(--clr-dark);
 }
 
 input,
@@ -148,6 +149,17 @@ textarea {
   gap: 4rem;
 }
 
+.gap-r {
+  row-gap: 3rem;
+}
+
+.gap-c {
+  column-gap: 2rem;
+}
+
+.mb-5p {
+  margin-bottom: 5px;
+}
 .py-2 {
   padding-block: 0.5em;
 }
@@ -184,6 +196,10 @@ textarea {
   color: var(--clr-dark);
 }
 
+.text-red {
+  color: var(--clr-red);
+}
+
 .fw-600 {
   font-weight: 600;
 }
@@ -213,8 +229,13 @@ textarea {
 div > article {
   border: var(--clr-black) solid 1px;
   background-color: var(--clr-gray);
-  width: fit-content;
+  min-width: auto;
+  width: 100%;
   border-radius: 10px;
   padding: 1.75rem;
   font-size: 0.85rem;
+}
+
+p > a + a {
+  margin-left: 1.25rem;
 }
