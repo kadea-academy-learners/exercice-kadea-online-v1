@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="container py-2 flex flex-justify-space-between flex-align">
         <div>
             <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
         </div>
         <nav>
-            <ul>
+            <ul class="flex gap">
                 <li>
                     <a href="#">Accueil</a>
                 </li>
@@ -27,38 +27,39 @@
 
     <main>
         <!--Start Hero section -->
-        <section>
+        <section class="container py-8 grid grid-t-c gap-2">
             <!--  -->
-            <div>
+            <div class="flex flex-col flex-justify-space-between">
                 <div>
                     <h1>
-                        Apprenez à coder avec
-                        Kinshasa Digital Academy,
+                        Apprenez à coder avec <br>
+                        Kinshasa Digital Academy, <br>
                         c'est gratuit !
                     </h1>
                 </div>
                 <div>
                     <p>
-                        Trouvez le bon cours et lancez-vous !!!
+                        Trouvez le bon cours et lancez-vous !!!<br>
                         Concentrez-vous sur ce qui est nécessaire pour acquérir
-                        une compétence spécifique et applicable.
+                        une compétence spécifique et applicable.<br>
                         Vous serez mieux outillé pour construire une carrière.
                     </p>
                 </div>
                 <div>
-                    <button>Lancez-vous</button>
+                    <button class="btn b-none">Lancez-vous</button>
                 </div>
             </div>
             <!--  -->
-            <div>
+            <div class="">
                 <img src="dist/images/Coding-workshop-pana.png" alt="image de coding workshop">
             </div>
             <!--  -->
         </section>
         <!--End Hero section -->
+
         <!--Start Option section -->
-        <div>
-            <article>
+        <div class="container bg-1 py-6 flex gap-3 text-center">
+            <article class="flex flex-col gap-1">
                 <div>
                     <h3>Construire une carrière</h3>
                 </div>
@@ -71,7 +72,7 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article class="flex flex-col gap-1">
                 <div>
                     <h3>Acquérir une compétence</h3>
                 </div>
@@ -84,7 +85,7 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article class="flex flex-col gap-1">
                 <div>
                     <h3>Apprenez a coder</h3>
                 </div>
@@ -99,14 +100,14 @@
         </div>
         <!--End Option section -->
         <!--Start Commencez à coder section -->
-        <section>
+        <section class="container bg-2 grid grid-t-c gap-2 py-5">
             <div>
                 <img src="dist/images/Code-editor.png" alt="code editor">
             </div>
-            <div>
+            <div class="flex flex-col flex-justify-space-between">
                 <div>
                     <h2>
-                        Commencez à coder en
+                        Commencez à coder en<br>
                         quelques secondes
                     </h2>
                 </div>
@@ -118,7 +119,7 @@
                     </p>
                 </div>
                 <div>
-                    <button>
+                    <button class="btn b-none">
                         Lancez-vous
                     </button>
                 </div>
@@ -126,24 +127,26 @@
         </section>
         <!--End Commencez à coder section -->
         <!--Start apprentissage section -->
-        <section>
-            <div>
+        <section class="container py-5 grid gap-3 text-dark">
+            <div class="grid-justify-self-center">
                 <h2>
                     Démarrez votre apprentissage
                 </h2>
             </div>
-            <div>
-                <article>
+            <!-- flex flex-justify-space-between -->
+            <!-- grid grid-t-c-minmax gap grid-justify-content-space -->
+            <div class="flex flex-justify-space-between gap">
+                <article class="b-none">
                     <h3>
                         HTML et HTML5 de base
                     </h3>
                 </article>
-                <article>
+                <article class="b-none">
                     <h3>
                         Les bases du CSS
                     </h3>
                 </article>
-                <article>
+                <article class="b-none">
                     <h3>
                         conception visuelle appliquée
                     </h3>
@@ -157,16 +160,16 @@
         </section>
         <!--End apprentissage section -->
         <!--Start Écrivez-nous section -->
-        <section>
+        <section class="container bg-1 py-5 grid gap-3 text-dark">
             <div>
                 <h2>
                     Écrivez-nous !
                 </h2>
             </div>
             <div>
-                <form>
-                    <div>
-                        <div>
+                <form class="grid gap-2">
+                    <div class="flex flex-justify-space-between gap-3">
+                        <div class="f-grow">
                             <div>
                                 <label for="nom">Votre nom</label>
                             </div>
@@ -174,7 +177,7 @@
                                 <input type="text" name="nom" id="nom">
                             </div>
                         </div>
-                        <div>
+                        <div class="f-grow">
                             <div>
                                 <label for="email">Votre email</label>
                             </div>
@@ -191,26 +194,26 @@
                             <textarea name="message" id="message"></textarea>
                         </div>
                     </div>
-                    <div>
-                        <button>Envoyez votre message</button>
+                    <div class="grid-justify-self-end">
+                        <button class="btn b-none">Envoyez votre message</button>
                     </div>
                 </form>
             </div>
         </section>
         <!--End Écrivez-nous section -->
     </main>
-    <footer>
+    <footer class="container py-4 grid grid-justify-content-center grid-justify-items gap-1">
         <div>
             <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
         </div>
         <div>
-            <p>
-                Texaf Digital Campus <br>
+            <p class="text-center text-dark fw-600">
+                <span class="fw-bold">Texaf Digital Campus</span> <br>
                 Concession COTEX N° 63 Avenue Colonel Mondjiba <br>
                 Commune de Ngaliema - Kinshasa
             </p>
         </div>
-        <div>
+        <div class="flex gap-1">
             <div>
                 <a href="#">
                     <img src="dist/images/facebook.png" alt="logo facebook">

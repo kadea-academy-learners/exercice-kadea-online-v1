@@ -1,8 +1,220 @@
 @import url("fonts.css");
 
-* {
+:root {
+  --clr-red: #d92950;
+  --clr-white: #fff;
+  --clr-dark: #3e3d3d;
+  --clr-black: #282c34;
+  --clr-gray: #faf3e9;
+}
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  line-height: 1.75;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+button {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  font-size: 1rem;
+  border-width: 1.5px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 8rem;
+}
+
+.border {
+  border: red solid 2px;
+}
+
+.border-dark-light {
+  border: var(--clr-dark) solid 1px;
+}
+
+.b-none {
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-align {
+  align-items: center;
+}
+
+.f-grow {
+  flex-grow: 1;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-t-c {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-t-c-minmax {
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+}
+
+.grid-justify-content-center {
+  justify-content: center;
+}
+
+.grid-justify-content-space {
+  justify-content: space-between;
+}
+
+.grid-justify-items {
+  justify-items: center;
+}
+
+.grid-align-items {
+  align-items: center;
+}
+
+.grid-align-content {
+  align-content: center;
+}
+
+.grid-justify-self-center {
+  justify-self: center;
+}
+
+.grid-justify-self-end {
+  justify-self: end;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+.gap-1 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.py-2 {
+  padding-block: 0.5em;
+}
+
+.py-3 {
+  padding-block: 1em;
+}
+
+.py-4 {
+  padding-block: 4em;
+}
+
+.py-5 {
+  padding-block: 5rem;
+}
+
+.py-6 {
+  padding-block: 6rem;
+}
+
+.py-7 {
+  padding-block: 7rem;
+}
+
+.py-8 {
+  padding-block: 8rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: var(--clr-dark);
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.btn {
+  width: max-content;
+  padding-inline: 1.5em;
+  padding-block: 0.8em;
+  border-radius: 7px;
+  color: var(--clr-white);
+  background-color: var(--clr-red);
+}
+
+.bg-1 {
+  background-color: var(--clr-gray);
+}
+
+.bg-2 {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+
+div > article {
+  border: var(--clr-black) solid 1px;
+  background-color: var(--clr-gray);
+  width: fit-content;
+  border-radius: 10px;
+  padding: 1.75rem;
+  font-size: 0.85rem;
 }
