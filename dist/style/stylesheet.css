@@ -6,3 +6,258 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
+:root{
+  --rg:#D92950 ;
+  --mr:#FAF3E9;
+  --bm:#282C34;
+}
+
+/* body{
+  padding: 0 100px;
+} */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+header nav ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+
+header nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a:hover{
+  text-decoration: none;
+  color: var(--rg);
+}
+
+/* main */
+.main_hero-section{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.main_hero-section h1{
+  font-size:xx-large;
+}
+
+.main_hero-section button{
+  color: white;
+  background-color: var(--rg);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.main_hero-section-left{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+
+.main_hero-section-right{
+  width: 100%;
+  height:  100%;
+}
+
+.main_hero-section-right img{
+  width: 100%;
+  height:  100%;
+  object-fit: cover;
+}
+
+.main_options{
+  background-color: var(--mr);
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+}
+
+.main_options article{
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+.main_options article p{
+  text-align: center;
+  padding: 20px;
+}
+
+.main_sections{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 50px;
+  padding:100px;
+  background-color: var(--bm);
+}
+
+.main_sections-left{
+  width: 100%;
+  height: 100%;
+}
+
+.main_sections-left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_sections-right{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+  width: 100%;
+}
+
+.main_sections-right button{
+  color: white;
+  background-color: var(--rg);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.main_sections-right h2{
+  font-size: x-large;
+}
+
+.main_sections-right p{
+  font-size: large;
+}
+
+
+.main_apprentissage_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  width: 100%;
+  gap: 50px;
+}
+
+.main_apprentissage_section-title{
+
+}
+
+.main_apprentissage_section-articles{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main_apprentissage_section-articles article{
+  background-color: var(--mr);
+  padding: 50px;
+}
+.main_apprentissage_section-p{
+  width: 100%;
+}
+
+.main_apprentissage_section-p a{
+  text-decoration: none;
+  color: var(--rg);
+  font-weight: bold;
+}
+
+.main_ecrivez-nous-section{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: var(--mr);
+  align-items: center;
+  padding: 100px;
+  width: 100%;
+}
+
+.main_ecrivez-nous-section-inputs{
+  width: 100%;
+}
+
+.main_ecrivez-nous-section-inputs-form{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.main_ecrivez-nous-section-inputs-form-first{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.main_ecrivez-nous-section-inputs-form-first input{
+  background: none;
+  border: solid black;
+  padding: 5px;
+  width: 550px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.main_ecrivez-nous-section-inputs-form-second{
+  width: 100%;
+}
+
+.main_ecrivez-nous-section-inputs-form-second textarea{
+  background: none;
+  border: solid black;
+  padding: 5px;
+  width: 100%;
+  height: 50vh;
+  border-radius: 8px;
+}
+
+.main_ecrivez-nous-section-inputs-form-button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_ecrivez-nous-section-inputs-form-button button{
+  color: white;
+  background-color: var(--rg);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+
+/* end main */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px ;
+}
+
+footer p{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer_images{
+  display: flex;
+  gap: 30px;
+}
