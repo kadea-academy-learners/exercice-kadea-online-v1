@@ -9,56 +9,57 @@
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="logo__container">
             <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
         </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="#">Accueil</a>
+            <ul class="header__nav-ul">
+                <li class="nav__li">
+                    <a href="index.html">Accueil</a>
                 </li>
                 <li>
-                    <a href="#">Nos cours</a>
+                    <a href="cours.html">Nos cours</a>
                 </li>
             </ul>
+            <div>
+                <img class="hamburger" src="https://th.bing.com/th/id/OIP.Js9KlCsNnUt35lX_fcuDmQHaFC?pid=ImgDet&w=191&h=129&c=7"alt="">
+            </div>
         </nav>
     </header>
 
     <main>
         <!--Start Hero section -->
-        <section>
-            <!--  -->
-            <div>
-                <div>
+        <section class="about">
+            <div class="about__sec1">
+                <div class="about__title">
                     <h1>
-                        Apprenez à coder avec
-                        Kinshasa Digital Academy,
+                        Apprenez à coder avec Kinshasa Digital Academy,<br>
                         c'est gratuit !
                     </h1>
                 </div>
-                <div>
+                <div class="about__p">
                     <p>
-                        Trouvez le bon cours et lancez-vous !!!
+                        Trouvez le bon cours et lancez-vous !!! <br>
                         Concentrez-vous sur ce qui est nécessaire pour acquérir
-                        une compétence spécifique et applicable.
-                        Vous serez mieux outillé pour construire une carrière.
+                        une compétence spécifique et applicable.  <br>
+                        Vous serez mieux outillé pour construire une carrière. <br>
                     </p>
                 </div>
                 <div>
-                    <button>Lancez-vous</button>
+                    <a class="button" href="#">Lancez-vous</a>
                 </div>
             </div>
             <!--  -->
-            <div>
+            <div class="about__img">
                 <img src="dist/images/Coding-workshop-pana.png" alt="image de coding workshop">
             </div>
             <!--  -->
         </section>
         <!--End Hero section -->
-        <!--Start Option section -->
-        <div>
-            <article>
+        <section>
+        <div class="option">
+            <article class="article radius">
                 <div>
                     <h3>Construire une carrière</h3>
                 </div>
@@ -71,7 +72,7 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article class="article radius">
                 <div>
                     <h3>Acquérir une compétence</h3>
                 </div>
@@ -84,7 +85,7 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article class="article radius">
                 <div>
                     <h3>Apprenez a coder</h3>
                 </div>
@@ -97,16 +98,16 @@
                 </div>
             </article>
         </div>
-        <!--End Option section -->
+        </section>
         <!--Start Commencez à coder section -->
-        <section>
-            <div>
+        <section class="code">
+            <div class="code__img">
                 <img src="dist/images/Code-editor.png" alt="code editor">
             </div>
-            <div>
-                <div>
+            <div class="code__ed">
+                <div class="code__title">
                     <h2>
-                        Commencez à coder en
+                        Commencez à coder en <br>
                         quelques secondes
                     </h2>
                 </div>
@@ -118,38 +119,36 @@
                     </p>
                 </div>
                 <div>
-                    <button>
-                        Lancez-vous
-                    </button>
+                    <a class="button" href="#">Lancez-vous</a>
                 </div>
             </div>
         </section>
         <!--End Commencez à coder section -->
         <!--Start apprentissage section -->
         <section>
-            <div>
+            <div class="demarrer__center">
                 <h2>
                     Démarrez votre apprentissage
                 </h2>
             </div>
-            <div>
-                <article>
+            <div class="demarrer">
+                <article class="article radius">
                     <h3>
                         HTML et HTML5 de base
                     </h3>
                 </article>
-                <article>
+                <article class="article radius">
                     <h3>
                         Les bases du CSS
                     </h3>
                 </article>
-                <article>
+                <article class="article radius">
                     <h3>
                         conception visuelle appliquée
                     </h3>
                 </article>
             </div>
-            <div>
+            <div class="demarrer__link">
                 <p>
                     <a href="#">Voir plus de cours -></a>
                 </p>
@@ -157,49 +156,49 @@
         </section>
         <!--End apprentissage section -->
         <!--Start Écrivez-nous section -->
-        <section>
-            <div>
+        <section class="form__ecrire">
+            <div class="demarrer__center">
                 <h2>
                     Écrivez-nous !
                 </h2>
             </div>
             <div>
                 <form>
-                    <div>
+                    <div class="form">
                         <div>
                             <div>
                                 <label for="nom">Votre nom</label>
                             </div>
                             <div>
-                                <input type="text" name="nom" id="nom">
+                                <input style="padding: 10px; width: 250px;" type="text" name="nom" id="nom">
                             </div>
                         </div>
                         <div>
                             <div>
                                 <label for="email">Votre email</label>
                             </div>
-                            <div>
-                                <input type="email" name="email" id="email">
+                            <div  class="radius">
+                                <input  style="padding: 10px; width: 250px;" type="email" name="email" id="email">
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="form__message">
                         <div>
                             <label for="message">Votre message</label>
                         </div>
                         <div>
-                            <textarea name="message" id="message"></textarea>
+                            <textarea style="padding: 40px; width: 280px;" name="message" id="message"></textarea>
                         </div>
                     </div>
-                    <div>
-                        <button>Envoyez votre message</button>
+                    <div class="form form__button">
+                        <button class="button ">Envoyez votre message</button>
                     </div>
                 </form>
             </div>
         </section>
         <!--End Écrivez-nous section -->
     </main>
-    <footer>
+    <footer class="demarrer__center footer">
         <div>
             <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
         </div>
@@ -210,7 +209,7 @@
                 Commune de Ngaliema - Kinshasa
             </p>
         </div>
-        <div>
+        <div class="footer__icon">
             <div>
                 <a href="#">
                     <img src="dist/images/facebook.png" alt="logo facebook">
