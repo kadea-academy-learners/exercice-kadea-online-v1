@@ -227,6 +227,7 @@ header nav ul li a:hover{
   width: 100%;
   height: 50vh;
   border-radius: 8px;
+  resize: none;
 }
 
 .main_ecrivez-nous-section-inputs-form-button{
