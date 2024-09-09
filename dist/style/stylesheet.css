@@ -337,3 +337,125 @@ footer p{
   display: flex;
   gap: 30px;
 }
+
+.humberger{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  header ul li{
+    display: none;
+  }
+  .humberger{
+    display: block;
+    width: 15px;
+    height: 15px;
+  }
+
+  .humberger img{
+    width: 45px;
+    /* height: 50px; */
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+  header nav .humberger{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main_hero-section{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main_options{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .main_sections-left{
+    display: none;
+  }
+
+  .main_sections{
+    padding: 40px;
+  }
+
+  .main_sections-right{
+    text-align: center;
+  }
+
+  .main_apprentissage_section{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main_apprentissage_section-articles{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .main_ecrivez-nous-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .main_ecrivez-nous-section-inputs-form-first{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+  .main_ecrivez-nous-section-inputs-form input{
+    background: none;
+    border: solid black;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  .main_ecrivez-nous-section-inputs-form-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main_ecrivez-nous-section-inputs-form-button button{
+    width: 100%;
+  }
+   main img{
+    display: none;
+  }
+
+  footer{
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  header ul li{
+    display: none;
+  }
+
+  .main_hero-section-right img{
+    display: none;
+  }
+}
+
