@@ -166,6 +166,7 @@ header nav ul li a:hover{
 .main_apprentissage_section-articles article{
   background-color: var(--mr);
   padding: 50px;
+  border-radius: 8px;
 }
 .main_apprentissage_section-p{
   width: 100%;
